@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Navbar */
@@ -39,6 +40,17 @@ header {
     justify-content: center;
 }
 
+.header-home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(conhecimento\ digital.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+}
+
 .header-saibamais{
     width: 100vw;
     height: 100vh;
@@ -53,7 +65,7 @@ header {
 .header-comoajudar {
     width: 100vw;
     height: 100vh;
-    background-image: url(imgfundo.png);
+    background-image: url(inteligencia-artificial-microsoft.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -98,9 +110,8 @@ ul {
 
 .header-content h1 {
       font-size: 7vmin;
-      margin-top: 50px;
+      margin-top: 80px;
       margin-bottom: 30px;
-
 }
 
 .ctn {
@@ -132,7 +143,7 @@ section {
 }
 
 .row {
-    
+    height: 100%;
     align-items: center;
     width: 100%;
     justify-content: space-between;
@@ -195,7 +206,8 @@ section {
 
 .legendsobre {
     margin-left: 25%;
-    width: 50%;
+    width: 80%;
+    height: 80%;
     font-size: 35px;
 }
 
